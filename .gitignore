@@ -9,7 +9,7 @@ seed.json
 *.pem
 
 # Text files
-*.txt
+Notes.txt
 
 # Logs
 *.log
