@@ -9,7 +9,7 @@ const app = express();
 const PORT = 3030;
 
 // app.use('/loaderio-0387c8a47aed375e9c28d733aff2f107.txt', express.static('main_gallery_prod/loaderio-0387c8a47aed375e9c28d733aff2f107.txt'));
-app.use(express.static(path.join(__dirname, '../client/dist'));
+app.use(express.static(path.join(__dirname, '../client/dist')));
 
 app.get('/main_gallery/:id', controllers.fetchListing);
 
