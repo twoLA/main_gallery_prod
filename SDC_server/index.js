@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const controllers = require('../SDC_controllers/listing.js');
 const Listings = require('../SDC_db/models/SDCschema.js');
+const path = require('path');
 
 require('newrelic');
 
