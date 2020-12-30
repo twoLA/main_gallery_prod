@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: TruliaSans, system, -apple-system, Roboto, "Segoe UI Bold", Arial, sans-serif;
+  letter-spacing: -0.1px;
+  overflow-x: hidden;
+}
+.nav-bar {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  width: 100%;
+}
+.trulia-logo-box {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 100%;
+
+}
+.trulia-logo {
+  box-sizing: border-box;
+  width: 100%;
+}
+.dead-end-box {
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 90%; /* 446 */
+  width: 90%; /* 994 */
+  overflow: hidden;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+.dead-end {
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 8px;
+  max-width: auto;
+  max-height: auto;
+
+}

@@ -7,3 +7,11 @@ seed.json
 
 # Key files
 *.pem
+
+# Text files
+*.txt
+
+# Logs
+*.log
+
+bundle.js
