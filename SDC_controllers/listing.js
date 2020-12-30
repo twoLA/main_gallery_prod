@@ -2,8 +2,8 @@ const Listings = require('../SDC_db/models/SDCschema.js');
 
 module.exports = {
   fetchListing: (req, res) => {
-    // console.log('req params:    ', req.params)
-    // console.log('Fetching... Listing #' + req.params.id);
+    console.log('req params:    ', req.params)
+    console.log('req params id: ', req.params.id);
 
     //fetchOne(req.params.id, callback);
     Listings.fetchOne(req.params.id, (err, data) => {
@@ -15,5 +15,6 @@ module.exports = {
       res.status(200);
       res.send(data);
     })
+    //res.send(req.params.id);
   }
 }
