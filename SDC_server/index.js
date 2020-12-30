@@ -8,6 +8,8 @@ require('newrelic');
 const app = express();
 const PORT = 3030;
 
+app.use(express.static('loaderio-0387c8a47aed375e9c28d733aff2f107.txt'));
+
 app.get('/main_gallery/:id', controllers.fetchListing);
 
 app.listen(PORT, () => {
