@@ -6,7 +6,7 @@
   "license": "ISC",
   "scripts": {
     "dev": "nodemon SDC_server/index.js",
-    "dep": "node SDC_server/index.js"
+    "dep": "nohup node SDC_server/index.js &"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
